@@ -1,0 +1,163 @@
+.tasksList {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  max-width: 46rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  color: var(--blue-300);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.completedTasks {
+  color: var(--purple-300);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.amountNumberTasks {
+  border-radius: 50%;
+  color: var(--white);
+  background: var(--gray-400);
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.amountNumberTasksCompleted {
+  color: var(--white);
+  background: var(--gray-400);
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  height: 1.2rem;
+  display: inline-flex;
+  border-radius: 1rem;
+  align-items: center;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 46rem;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.list li {
+  display: flex;
+  align-items: anchor-center;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  background-color: var(--gray-500);
+}
+
+.taskComplete,
+.taskIncomplete {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  color: var(--gray-100);
+  transition: text-decoration 0.5s ease-out, color 0.5s ease-out;
+}
+
+.taskComplete {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.btnComplete,
+.btnIncomplete {
+  display: flex;
+  justify-content: center;
+  padding: 0.125rem;
+  font-size: 87.5%;
+  border: 1px solid var(--blue-300);
+  border-radius: 9999px;
+  background: none;
+  transition: opacity 0.15s, background-color 0.15s, border 0.15s;
+
+  svg {
+    opacity: 0;
+  }
+
+  &:focus-visible,
+  &:hover {
+    opacity: 0.7;
+    background-color: rgba(var(--blue-300), 0.1);
+  }
+}
+
+.btnComplete {
+  color: var(--gray-100);
+  border: 1px solid var(--purple-500);
+  background-color: var(--purple-500);
+
+  svg {
+    opacity: 1;
+  }
+
+  &:focus-visible,
+  &:hover {
+    opacity: 1;
+    background-color: var(--purple-300);
+    border: 1px solid var(--purple-300);
+  }
+}
+
+.btnDelete {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 120%;
+  color: var(--gray-300);
+  border: none;
+  background: none;
+  transition: background-color 0.15s, border-radius 0.15s;
+
+  &:focus-visible,
+  &:hover {
+    color: var(--red-500);
+    border-radius: 0.5rem;
+    background-color: var(--gray-400);
+  }
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--gray-300);
+  text-align: center;
+
+  border-top: 1px solid var(--gray-400);
+  width: 100%;
+  max-width: 46rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  padding-top: 4rem;
+
+  svg {
+    font-size: 350%;
+    opacity: 0.5;
+  }
+}

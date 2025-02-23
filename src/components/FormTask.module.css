@@ -1,0 +1,61 @@
+.list {
+  width: 100%;
+  margin-top: -1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.3rem;
+  max-width: 46rem;
+}
+
+.listHeader {
+  width: 100%;
+}
+
+.listHeader > form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.listHeader > form .listInputNewTask {
+  /* flex-grow: 1; */
+  width: 100%;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  border: 2px solid var(--gray-700);
+}
+
+.listHeader > form .listButtonNewTask {
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 0.5rem;
+  background: var(--blue-500);
+  border-radius: 8px;
+  color: var(--gray-100);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.4;
+  border: 0;
+  transition: background 0.2s;
+}
+
+.listHeader > form .listButtonNewTask:hover {
+  background: var(--blue-300);
+}
+
+@media (max-width: 768px) {
+  .listHeader > form {
+    display: flex;
+    flex-direction: column;
+  }
+  .listHeader > form .listButtonNewTask {
+    width: 100%;
+  }
+}
