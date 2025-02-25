@@ -4,7 +4,7 @@ This is a simple to-do list application developed using React and Vite. The appl
 
 [Project webview :rocket:](https://todo-app-kohl-gamma.vercel.app/)
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1bWA88pYhv4RIZTTBEpwK9Lh8P0puMy8z/view?usp=drive_link)
+(https://raw.githubusercontent.com/PatrickMeirelles/files-github/3c51f62009d4cb9255f77931e685ba2071fb46a5/todo-app.gif?token=GHSAT0AAAAAAC7RZRS7ANIKOKIZDLOFQF4YZ556PAQ)
 
 ## Prerequisites
 
