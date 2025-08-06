@@ -2,10 +2,6 @@
 
 This is a simple to-do list application developed using React and Vite. The application allows you to add, edit and delete tasks in a practical and intuitive way.
 
-[Project webview :rocket:](https://todo-app-kohl-gamma.vercel.app/)
-
-![](https://raw.githubusercontent.com/PatrickMeirelles/files-github/a69a04d18790cd47a8c9a1daed36b133c0a0c886/rocketseat/todo-app/todo-app.gif?token=GHSAT0AAAAAAC7RZRS6FQX4VPMDJNK6MHHGZ556WZA)
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -37,7 +33,3 @@ npm run dev
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
